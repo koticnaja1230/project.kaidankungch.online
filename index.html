@@ -1,0 +1,118 @@
+<!doctype html> 
+<html lang="th">
+<head>
+    <meta charset="utf-8">    
+    <title>KaidankungCh.</title> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @font-face {
+        font-family: "SaochingchaBold";
+        src: url("./Font/SaoChingcha-Bold.otf") format("opentype");
+        font-display: swap;
+        }
+        @keyframes scrollText {
+    0% {
+        transform: translateX(85%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+        
+        h1{
+            color: black;
+            font-size: 50px;
+            font-family: "SaochingchaBold", Arial;
+            -webkit-text-stroke: 2px white;            
+        }
+        h2 {
+            font-family: "SaochingchaBold", Arial;
+        }
+        h3{
+            font-family: "SaochingchaBold", Arial;
+            font-size: 20px;            
+        }
+        header {
+            background: linear-gradient(to top, #cc0000, #000000)
+            border-bottom 2px solid white !important;
+        }
+        body {
+            background: linear-gradient(to bottom, #cc0000, #000000);
+            font-family: "SaochingchaBold", Arial;
+        }
+        p, span {
+            font-family: "SaochingchaBold", Arial;
+        }
+        #roundCorners {
+            border-radius: 25px;
+            padding: 10px;
+            width: auto;
+            height: auto;  
+            background: linear-gradient(to top, #cc0000, #000000);
+            color: rgb(0, 0, 0);
+            font-size: 30px;
+            font-family: "SaochingchaBold", Arial;
+            -webkit-text-stroke: 0.5px white;            
+            overflow: hidden;
+        }
+        html {
+            height: 100%;
+        }                       
+    </style>
+</head>  
+
+<body>
+    <div class="container">        
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img src="./image/logo no bg.png" width="70" height="auto" style="margin-right: auto;"> 
+            <span class="fs-4" style="color: white;">KaidankungCh.</span>
+          </a>
+          <ul class="nav nav-pills">           
+            <h3><li class="nav-item"><a href="https://www.youtube.com/@kaidankungtv555" class="nav-link" style="color: white;" target="_blank"><i class="fab fa-youtube" style="margin-right: 5px;"></i>Youtube</a></li></h3>
+            <h3><li class="nav-item"><a href="https://discord.gg/gdssVX97tU" class="nav-link" style="color: white;" target="_blank"><i class="fab fa-discord" style="margin-right: 5px;"></i>Discord</a></li></h3>
+            <h3><li class="nav-item"><a href="https://facebook.com/Kaidankung-TV-110610698115450" class="nav-link" style="color: white;" target="_blank"><i class="fab fa-facebook" style="margin-right: 5px;"></i>Fanpage</a></li></h3>
+          </ul>
+        </header>
+    </div>    
+    <div class="container">
+        <center>           
+            <img src="./image/logo no bg.png" width="300" height="auto"> <br>               
+            <h1 style="text-align: center;"><span style="color: rgb(0, 0, 0);">KaidankungCh.</span></h1>       
+            <p id="roundCorners" style="width: 100%; max-width: 100%;">
+                <span style="display: inline-block; animation: scrollText 30s linear infinite; white-space: nowrap;">
+        ช่องนี้สร้างมาเพื่อทำตามความฝันที่ผมต้องการทำมานานแล้ว ซึ่งตอนนี้ผมได้มีโอกาสได้ทำช่องยูทูปตามความฝันที่ผมต้องการผมจะพยามทำให้ดีที่สุดเท่าที่จะทำได้ ขอบคุณครับที่เข้ามาดูคลิปของผม
+                </span>
+            </p>
+        </center>
+    </div>    
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" style="max-width: 600px; margin: 0 auto;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://www.youtube.com/watch?v=Zz7VvmR2Wx4&pp=2AbnBg%3D%3D" target="_blank">
+        <img src="./image/miside.jpg" class="d-block" alt="Slide 1" style="height: 300px; width: auto; margin: 0 auto; cursor: pointer;">
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.youtube.com/watch?v=90NZJAo5CTU" target="_blank">
+        <img src="./image/fishing.jpg" class="d-block" alt="Slide 2" style="height: 300px; width: auto; margin: 0 auto; cursor: pointer;">
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.youtube.com/watch?v=d_lNp19ZvmI" target="_blank">
+        <img src="./image/dota.jpg" class="d-block" alt="Slide 3" style="height: 300px; width: auto; margin: 0 auto; cursor: pointer;">
+      </a>
+    </div>
+  </div>
+  <!-- ปุ่มควบคุม -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
